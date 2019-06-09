@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Oppilo",
+    "version": "1.0",
+    "description": "Simple Chrome Ad Blocker",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
